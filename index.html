@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Museum: Philippine Art & Heritage</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <!-- LEFT: LOGO -->
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo" />
+            <span>PH Digital Museum</span>
+        </div>
+
+                <!-- HAMBURGER -->
+        <div class="menu-toggle" id="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <!-- CENTER: LINKS -->
+        <nav class="nav-center">
+            <a href="#Home">Home</a>
+            <a href="#Gallery">Gallery</a>
+            <a href="#Curatorial">Curatorial</a>
+            <a href="#Museum">Museum</a>
+            <a href="#Team">Team</a>
+            <a href="#Reflection">Reflection</a>
+        </nav>
+
+        <!-- RIGHT: BUTTON -->
+        <div class="nav-right">
+            <a href="#Gallery" class="btn-explore">
+                <button class="nav-btn">
+                    Explore Exhibit <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </button>
+            </a>
+        </div>
+
+    </header>
+
+    <section class="hero" id="Home">
+        <img class="hero-img" src="images/hero.png" alt="Museum Hero" />
+
+        <div class="hero-content">
+            <span class="tag">
+                <i class="fa-solid fa-building-columns"></i> VIRTUAL EXHIBITION 2025
+            </span>
+
+            <h1>
+                Digital Museum:<br />
+                <span>Philippine Art</span> & Cultural Heritage
+            </h1>
+
+            <p>
+                A curated virtual exhibit celebrating the richness of Filipino culture,
+                artistry, and identity — from ancient traditions to contemporary expressions.
+            </p>
+
+            <div class="buttons">
+                <a href="#Gallery"><button class="primary"><i class="fa-regular fa-compass"></i> Explore Exhibit</button></a>
+                <a href="#Curatorial"><button class="secondary"><i class="fa-solid fa-book-open"></i> Learn More</button></a>
+            </div>
+
+            <div class="stats">
+                <div><b>5+</b><span>ARTWORKS</span></div>
+                <div><b>8</b><span>TEAM MEMBERS</span></div>
+                <div><b>100+</b><span>YEAR OF HERITAGE</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery" id="Gallery">
+        <div class="gallery-header">
+            <span>VIRTUAL EXHIBITION</span>
+            <h1>Featured Artworks</h1>
+            <p>
+                Explore a curated selection of masterpieces that define Philippine artistic heritage, from the 19th
+                century to the modern era.
+            </p>
+        </div>
+
+        <div class="container">
+            <div class="grid">
+
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/Artworks/Spoliarium.jpg" alt="">
+                        <div class="badge">Masterpiece/Historical</div>
+
+                        <div class="hover-overlay">
+                            <i class="fa-regular fa-eye"></i>
+                            <span>See Details</span>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h3>Spoliarium</h3>
+                        <p class="artist">Juan Luna</p>
+                        <p class="meta">1884</p>
+                        <p class="desc">
+                            A powerful depiction of fallen gladiators being dragged to the spoliarium, symbolizing
+                            oppression and injustice during the Roman era, often interpreted as an allegory of colonial
+                            suffering.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/Artworks/Felix Resurreccion.jpg" alt="">
+                        <div class="badge">Historical</div>
+
+                        <div class="hover-overlay">
+                            <i class="fa-regular fa-eye"></i>
+                            <span>See Details</span>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h3>The Assassination of Governor Bustamante</h3>
+                        <p class="artist">Félix Resurrección Hidalgo</p>
+                        <p class="meta">1888</p>
+                        <p class="desc">
+                            This dramatic painting portrays the violent killing of Governor Bustamante in 1719,
+                            highlighting the abuse of power and conflict between church and state in Spanish colonial
+                            Philippines.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/Artworks/The_Parisian_Life_by_Juan_Luna.jpg" alt="">
+                        <div class="badge">Impressionism</div>
+
+                        <div class="hover-overlay">
+                            <i class="fa-regular fa-eye"></i>
+                            <span>See Details</span>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h3>The Parisian Life (Interior d'un Café)</h3>
+                        <p class="artist">Juan Luna</p>
+                        <p class="meta">1892</p>
+                        <p class="desc">
+                            A glimpse into Parisian society, this artwork features a mysterious woman in a café,
+                            reflecting themes of modern life, identity, and the social atmosphere of late 19th-century
+                            Europe.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/Artworks/A mi madre, or Laureana Novicio Ancheta.jpg" alt="">
+                        <div class="badge">National Art</div>
+
+                        <div class="hover-overlay">
+                            <i class="fa-regular fa-eye"></i>
+                            <span>See Details</span>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h3>Portrait of Laureana Novicio y Ancheta</h3>
+                        <p class="artist">Juan Luna</p>
+                        <p class="meta">1897</p>
+                        <p class="desc">
+                            A tender and intimate portrait of Juan Luna’s wife, showcasing elegance and emotional depth
+                            through delicate brushwork and soft realism.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/Artworks/Hulat Sweldo Nunelucio Alvarado.jpg" alt="">
+                        <div class="badge">Contemporary</div>
+
+                        <div class="hover-overlay">
+                            <i class="fa-regular fa-eye"></i>
+                            <span>See Details</span>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h3>Hulat Sweldo</h3>
+                        <p class="artist">Nunelucio Alvarado</p>
+                        <p class="meta">1994</p>
+                        <p class="desc">
+                            A social realist painting that captures the struggles of Filipino workers waiting for their
+                            wages, reflecting economic hardship and everyday resilience.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/Artworks/Jeepneys.jpg" alt="">
+                        <div class="badge">Contemporary</div>
+
+                        <div class="hover-overlay">
+                            <i class="fa-regular fa-eye"></i>
+                            <span>See Details</span>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h3>Jeepneys</h3>
+                        <p class="artist">Vicente Manansala</p>
+                        <p class="meta">1960s</p>
+                        <p class="desc">
+                            A cubist-inspired portrayal of Philippine jeepneys, symbolizing urban life, culture, and the
+                            vibrancy of everyday Filipino transportation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="curatorial" id="Curatorial">
+        <div class="container">
+
+            <div class="curatorial-header">
+                <span>CURATORIAL CONCEPT</span>
+                <h2>The Narrative Thread</h2>
+                <p>
+                    This exhibit is unified by a single overarching theme:
+                    <b>"Pagkakakilanlan" — Filipino Identity Through Art. </b>
+                    Each artwork is a chapter in the story of a people who have endured, evolved, and expressed
+                    themselves.
+                </p>
+            </div>
+
+            <!-- BANNER -->
+            <div class="curatorial-banner">
+                <div class="overlay">
+                    <h3>"Pagkakakilanlan"</h3>
+                    <p>
+                        Filipino identity is not monolithic — it is layered, contested, and beautifully complex.
+                        Through these artworks, we trace the arc of a nation discovering itself.
+                    </p>
+                </div>
+            </div>
+
+            <!-- CARDS -->
+            <div class="curatorial-grid">
+
+                <div class="curatorial-card">
+                    <i class="fa-solid fa-seedling"></i>
+                    <h4>Identity & Roots</h4>
+                    <p>Works like Dalagang Bukid and Planting Rice ground the exhibit in the Filipino connection to
+                        land, nature, and ancestral identity — celebrating who we are through what we cultivate.</p>
+                </div>
+
+                <div class="curatorial-card">
+                    <i class="fa-solid fa-hand-fist"></i>
+                    <h4>Resistance & Struggle</h4>
+                    <p>The Spoliarium and Blood Compact speak to the Filipino experience of colonialism — the suffering
+                        endured, the alliances forged, and the quiet resistance embedded in art.</p>
+                </div>
+
+                <div class="curatorial-card">
+                    <i class="fa-solid fa-globe"></i>
+                    <h4>Cosmopolitan Vision</h4>
+                    <p>The Parisian Life shows that Filipino artists were not isolated — they engaged with global
+                        movements, bringing international perspectives back to enrich local culture.</p>
+                </div>
+
+                <div class="curatorial-card">
+                    <i class="fa-regular fa-heart"></i>
+                    <h4>Social Conscience</h4>
+                    <p>BenCab's Sabel series reminds us that art must speak for the marginalized. Philippine art has
+                        always carried a moral responsibility to reflect society's truths.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="contribution">
+        <div class="container">
+
+            <div class="contribution-box">
+                <h2>How Each Artwork Contributes</h2>
+
+                <div class="contribution-grid">
+
+                    <div class="contribution-card">
+                        <span>01</span>
+                        <div>
+                            <h4>Spoliarium</h4>
+                            <p>Anchors the theme of struggle and colonial oppression</p>
+                        </div>
+                    </div>
+
+                    <div class="contribution-card">
+                        <span>02</span>
+                        <div>
+                            <h4>The Parisian Life</h4>
+                            <p>Represents Filipino cosmopolitanism and artistic evolution</p>
+                        </div>
+                    </div>
+
+                    <div class="contribution-card">
+                        <span>03</span>
+                        <div>
+                            <h4>Dalagang Bukid</h4>
+                            <p>Celebrates Filipino femininity and rural identity</p>
+                        </div>
+                    </div>
+
+                    <div class="contribution-card">
+                        <span>04</span>
+                        <div>
+                            <h4>The Blood Compact</h4>
+                            <p>Explores diplomacy and colonial-era relationships</p>
+                        </div>
+                    </div>
+
+                    <div class="contribution-card">
+                        <span>05</span>
+                        <div>
+                            <h4>Sabel</h4>
+                            <p>Voices social inequality and the forgotten Filipino</p>
+                        </div>
+                    </div>
+
+                    <div class="contribution-card">
+                        <span>06</span>
+                        <div>
+                            <h4>Planting Rice</h4>
+                            <p>Honors the dignity of labor and communal values</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section class="museum-about" id="Museum">
+
+        <div class="museum-header">
+            <span>ABOUT THE MUSEUM</span>
+            <h1>National Museum of the Philippines</h1>
+            <p>
+                The premier institution for the preservation and promotion of Philippine natural and
+                cultural heritage, located in the heart of Manila.
+            </p>
+        </div>
+
+        <!-- ✅ BANNER (IDINAGDAG) -->
+        <div class="museum-banner">
+            <img src="images/museum.jpg" alt="Museum Banner">
+
+            <!-- ✅ STATS (INILIPAT SA LOOB) -->
+            <div class="museum-stats">
+
+                <div class="stat-box">
+                    <i class="fa-solid fa-building"></i>
+                    <div>
+                        <h4>1891</h4>
+                        <p>Established</p>
+                    </div>
+                </div>
+
+                <div class="stat-box">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div>
+                        <h4>Manila, PH</h4>
+                        <p>Location</p>
+                    </div>
+                </div>
+
+                <div class="stat-box">
+                    <i class="fa-solid fa-images"></i>
+                    <div>
+                        <h4>25,000+</h4>
+                        <p>Collection</p>
+                    </div>
+                </div>
+
+                <div class="stat-box">
+                    <i class="fa-solid fa-users"></i>
+                    <div>
+                        <h4>500,000+</h4>
+                        <p>Annual Visitors</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- CONTENT -->
+        <div class="museum-content container">
+
+            <!-- LEFT -->
+            <div class="museum-text">
+                <h2>A Guardian of Filipino Heritage</h2>
+
+                <p>
+                    The National Museum of the Philippines stands as the country's foremost institution dedicated to the
+                    preservation, study, and promotion of the natural and cultural heritage of the Filipino people.
+                    Located along Padre Burgos Avenue in the heart of Manila's historic Rizal Park complex, the museum
+                    occupies several heritage buildings that are themselves architectural treasures.
+                </p>
+
+                <p>
+                    Originally established as the Insular Museum of Ethnology, Natural History and Commerce in 1901, the
+                    institution has evolved over more than a century to become a complex of specialized museums covering
+                    fine arts, anthropology, natural history, geology, and planetarium sciences.
+                </p>
+
+                <a href="https://maps.app.goo.gl/dtYtUUySUhx9FxDR8" target="_blank" class="map-link">
+
+                    <div class="museum-address">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div class="address-text">
+                            <span class="label">Address</span>
+                            <span class="value">
+                                Padre Burgos Ave, Ermita, Manila, 1000 Metro Manila
+                            </span>
+                        </div>
+                    </div>
+
+                </a>
+            </div>
+
+            <!-- RIGHT -->
+            <div class="museum-cards">
+
+                <div class="museum-card">
+                    <i class="fa-solid fa-clock"></i>
+                    <h4>Rich History</h4>
+                    <p>Founded in 1891 during the Spanish colonial period, the N ational Museum of the Philippines has
+                        been the guardian of Filipino cultural heritage for over 130 years.</p>
+                </div>
+
+                <div class="museum-card">
+                    <i class="fa-solid fa-award"></i>
+                    <h4>National Significance</h4>
+                    <p>Declared a National Cultural Treasure, the museum houses the country's most important
+                        archaeological, anthropological, and artistic collections.</p>
+                </div>
+
+                <div class="museum-card">
+                    <i class="fa-solid fa-palette"></i>
+                    <h4>Art Collections</h4>
+                    <p>Home to iconic masterpieces including Juan Luna's Spoliarium and Fernando Amorsolo's works, it is
+                        the definitive repository of Philippine fine arts.</p>
+                </div>
+
+                <div class="museum-card">
+                    <i class="fa-solid fa-globe"></i>
+                    <h4>Cultural Mission</h4>
+                    <p>The museum's mission is to preserve, protect, and promote the natural and cultural heritage of
+                        the Philippines for present and future generations.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="team" id="Team">
+        <div class="container">
+
+            <div class="team-header">
+                <span>THE PEOPLE BEHIND IT</span>
+                <h2>Meet the Team</h2>
+                <p>
+                    Eight passionate students who came together to celebrate and preserve
+                    Philippine art and cultural heritage through this digital exhibit.
+                </p>
+            </div>
+
+            <div class="team-grid">
+
+                <!-- CARD -->
+                <div class="team-card beige">
+                    <div class="avatar">
+                        <img src="images/team/Ian.png" alt="">
+                    </div>
+                    <h3>Ian Christopher Junio</h3>
+                    <span class="role">Project Manager | Lead Developer</span>
+                    <p>Led the team and managed project timelines while developing the website structure and ensuring a
+                        responsive, user-friendly experience.</p>
+                </div>
+
+                <div class="team-card green">
+                    <div class="avatar">
+                        <img src="images/team/jude.jpg" alt="">
+                    </div>
+                    <h3>Jude Owen Cerezo</h3>
+                    <span class="role">UI/UX Designer</span>
+                    <p>Designed the visual interface and user experience, creating a cohesive and engaging layout
+                        inspired by Filipino cultural aesthetics.</p>
+                </div>
+
+                <div class="team-card purple">
+                    <div class="avatar">
+                        <img src="images/team/nashbastiestrada.png" alt="">
+                    </div>
+                    <h3>Nash Basti Estrada</h3>
+                    <span class="role">Content Writer</span>
+                    <p>Developed written content, conducted research, and ensured clarity and accuracy in presenting the
+                        artworks and their cultural significance.</p>
+                </div>
+
+                <div class="team-card beige">
+                    <div class="avatar">
+                        <img src="images/team/acepanayy.png" alt="">
+                    </div>
+                    <h3>A’s Panay</h3>
+                    <span class="role">Curator</span>
+                    <p>Organized and selected artworks while shaping the overall narrative and thematic flow of the
+                        digital exhibit.</p>
+                </div>
+
+                <div class="team-card beige">
+                    <div class="avatar">
+                        <img src="images/team5.jpg" alt="">
+                    </div>
+                    <h3>Troy Denver Aquino</h3>
+                    <span class="role">Art Researcher</span>
+                    <p>Conducted in-depth research on artworks, providing historical context and cultural insights to
+                        support the exhibit’s content.</p>
+                </div>
+
+                <div class="team-card green">
+                    <div class="avatar">
+                        <img src="images/team/rodel.jpg" alt="">
+                    </div>
+                    <h3>Rodel Alfred Dela Cruz</h3>
+                    <span class="role">Visual Researcher</span>
+                    <p>Collected and curated high-quality images of artworks, ensuring visual consistency and relevance
+                        across the exhibit.</p>
+                </div>
+
+                <div class="team-card purple">
+                    <div class="avatar">
+                        <img src="images/team/iglesias.jpg" alt="">
+                    </div>
+                    <h3>John Kyle Iglesias</h3>
+                    <span class="role">Image Curator</span>
+                    <p>Sourced and organized artwork images, maintaining accuracy and alignment with the exhibit’s theme
+                        and presentation.</p>
+                </div>
+
+                <div class="team-card beige">
+                    <div class="avatar">
+                        <img src="images/team/rochelle.png" alt="">
+                    </div>
+                    <h3>Rochelle Bautista</h3>
+                    <span class="role">Quality Assurance</span>
+                    <p>Reviewed website functionality, tested features, and ensured a smooth and error-free user
+                        experience across all sections.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+    <section class="reflection" id="Reflection">
+
+        <p class="reflection-top">GROUP REFLECTION</p>
+        <h1 class="reflection-title">Insights & Takeaways</h1>
+        <p class="reflection-subtitle">
+            A collective reflection on what this journey taught us about art, culture,
+            identity, and the power of collaboration.
+        </p>
+
+        <!-- CARDS -->
+        <div class="reflection-cards">
+
+            <div class="reflection-card">
+                <i class="fa-solid fa-lightbulb icon"></i>
+                <h3>What We Learned</h3>
+                <p>
+                    This project deepened our understanding of Philippine art history far beyond what textbooks offer.
+                    We discovered that each artwork is not just a visual creation — it is a document of its time, a
+                    political statement, a cultural mirror. We learned to read art critically, to ask not just 'what is
+                    this?' but 'why does this exist, and what does it mean for us today?'
+                </p>
+            </div>
+
+            <div class="reflection-card">
+                <i class="fa-solid fa-star icon"></i>
+                <h3>Importance of Preservation</h3>
+                <p>
+                    Philippine art is a living heritage that connects us to our ancestors, our struggles, and our
+                    triumphs. In an age of rapid digitization and cultural homogenization, preserving these works — both
+                    physically and digitally — is an act of national identity. We realized that every Filipino has a
+                    responsibility to know, appreciate, and protect this heritage.
+                </p>
+            </div>
+
+            <div class="reflection-card">
+                <i class="fa-solid fa-users icon"></i>
+                <h3>Our Experience</h3>
+                <p>
+                    Building this digital museum was a transformative collaborative experience. We learned to divide
+                    responsibilities, respect each other's expertise, and merge our individual contributions into a
+                    cohesive whole. The process taught us that great projects — like great artworks — are born from the
+                    synergy of many hands and minds working toward a shared vision.
+                </p>
+            </div>
+
+        </div>
+
+        <!-- QUOTES -->
+        <div class="reflection-quotes">
+
+            <div class="reflection-quote">
+                <i class="fa-solid fa-quote-left icon"></i>
+                <p>Art is the most beautiful of all lies — it tells the truth about who we are.</p>
+                <span>— Team Reflection</span>
+            </div>
+
+            <div class="reflection-quote">
+                <i class="fa-solid fa-quote-left icon"></i>
+                <p>To know Philippine art is to know the Filipino soul.</p>
+                <span>— Team Reflection</span>
+            </div>
+
+        </div>
+
+        <!-- BANNER -->
+        <div class="reflection-banner">
+
+            <!-- 🔥 LOGO -->
+            <img src="images/logo.png" alt="logo" class="banner-logo">
+
+            <h2>Mabuhay ang Sining Pilipino!</h2>
+
+            <p>
+                Long live Philippine Art! This digital museum is our tribute to the artists, historians, and cultural
+                workers who have dedicated their lives to preserving the beauty and meaning of Filipino heritage. We
+                hope this exhibit inspires others to explore, appreciate, and protect the rich artistic legacy of the
+                Philippines.
+            </p>
+
+            <div class="reflection-tags">
+                <span>Art Appreciation</span>
+                <span>Philippine Heritage</span>
+                <span>Cultural Identity</span>
+                <span>Digital Curation</span>
+                <span>Team Collaboration</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="container footer-container">
+
+            <!-- LEFT -->
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="">
+                    <span>PH Digital Museum</span>
+                </div>
+
+                <p>
+                    A curated virtual exhibit celebrating the richness of Filipino culture,
+                    artistry, and identity — preserving heritage for future generations.
+                </p>
+
+                <div class="footer-socials">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <!-- LINKS -->
+            <div class="footer-links">
+
+                <div>
+                    <h4>Exhibit</h4>
+                    <a href="#Gallery">Virtual Gallery</a>
+                    <a href="#Curatorial">Curatorial Concept</a>
+                    <a href="#Gallery">Artwork Analysis</a>
+                    <a href="#Gallery">Featured Artists</a>
+                </div>
+
+                <div>
+                    <h4>Museum</h4>
+                    <a href="#Museum">About the Museum</a>
+                    <a href="#Museum">History</a>
+                    <a href="#Museum">Location</a>
+                    <a href="#Museum">Visit Us</a>
+                </div>
+
+                <div>
+                    <h4>Project</h4>
+                    <a href="#Team">Meet the Team</a>
+                    <a href="#Reflection">Reflection</a>
+                    <a href="#Home">References</a>
+                    <a href="#Home">Acknowledgments</a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- BOTTOM -->
+        <div class="footer-bottom">
+            <p class="left">© 2025 PH Digital Museum. Academic Performance Task.</p>
+
+            <p class="center">Created by BSIT 1-02</p>
+
+            <p class="right">Made with ♥ for Philippine Art & Heritage</p>
+        </div>
+    </footer>
+
+
+
+    <div id="artModal" class="modal">
+        <div class="modal-content">
+
+            <span class="close-btn">&times;</span>
+        
+            <!-- IMAGE HEADER -->
+            <div class="modal-image">
+                <img id="modal-img">
+                <div class="badge" id="modal-badge"></div>
+            </div>
+        
+            <!-- CONTENT -->
+            <div class="modal-body">
+        
+                <h2 id="modal-title"></h2>
+                <p class="artist" id="modal-artist"></p>
+                <p class="medium" id="modal-medium"></p>
+        
+                <h4>BACKGROUND & HISTORY</h4>
+                <p id="modal-history"></p>
+        
+                <h4>CRITICAL ANALYSIS</h4>
+                <p id="modal-analysis"></p>
+        
+                <div class="modal-grid">
+                    <div>
+                        <h5>SUBJECT</h5>
+                        <p id="modal-subject"></p>
+                    </div>
+        
+                    <div>
+                        <h5>CONTEXT</h5>
+                        <p id="modal-context"></p>
+                    </div>
+        
+                    <div>
+                        <h5>MEANING</h5>
+                        <p id="modal-meaning"></p>
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        const artworks = [
+            {
+                title: "Spoliarium",
+                artist: "Juan Luna · 1884",
+                medium: "Oil on canvas",
+                img: "images/Artworks/Spoliarium.jpg",
+                badge: "Masterpiece/Historical",
+                history: "Painted by Juan Luna in Rome, the Spoliarium won the gold medal at the 1884 Madrid Exposition of Fine Arts. The artwork depicts the aftermath of gladiatorial combat in ancient Rome, where the bodies of fallen gladiators are dragged away from the arena.",
+                analysis: "The painting uses dramatic chiaroscuro lighting to create a powerful emotional effect. Its massive size (4.22 m × 7.675 m) overwhelms the viewer and emphasizes the suffering, defeat, and tragedy shown in the scene.",
+                subject: "Fallen gladiators being dragged away from the Roman Colosseum arena.",
+                context: "Created during the Spanish colonial period, the painting was interpreted as a metaphor for the oppression of Filipinos under Spanish rule.",
+                meaning: "Symbolizes the suffering and struggle of the Filipino people seeking freedom and justice."
+            },
+
+            {
+                title: "The Assassination of Governor Bustamante",
+                artist: "Felix Resurreccion Hidalgo · 1888",
+                medium: "Oil on canvas",
+                img: "images/Artworks/Felix Resurreccion.jpg",
+                badge: "Historical",
+                history: "Painted by Felix Resurreccion Hidalgo, this artwork depicts the violent killing of Spanish Governor Fernando Manuel de Bustamante in Manila in 1719. The painting highlights a dramatic moment in Philippine colonial history involving conflict between the church and colonial government.",
+                analysis: "The artwork uses dramatic composition and lighting to emphasize chaos and tension. Hidalgo’s detailed figures and expressive gestures create a strong sense of movement and emotion.",
+                subject: "The murder of Governor Bustamante inside the palace.",
+                context: "Reflects conflicts between Spanish colonial authorities and religious institutions during the colonial period.",
+                meaning: "Represents political struggle and abuse of power in colonial Philippines."
+            },
+
+            {
+                title: "The Parisian Life (Interior d'un Café)",
+                artist: "Juan Luna · 1892",
+                medium: "Oil on canvas",
+                img: "images/Artworks/The_Parisian_Life_by_Juan_Luna.jpg",
+                badge: "Impressionism",
+                history: "Painted by Juan Luna while he was living in Paris. The painting shows a woman sitting inside a café while several men observe her, believed to resemble Filipino reformists.",
+                analysis: "The artwork uses soft lighting and muted colors typical of European café scenes. Luna captures everyday Parisian life while subtly referencing Filipino intellectuals abroad.",
+                subject: "A woman inside a Paris café observed by men.",
+                context: "Painted during the time when Filipino reformists were active in Europe advocating political change.",
+                meaning: "Symbolizes the intellectual and cultural life of Filipinos in Europe."
+            },
+
+            {
+                title: "Portrait of Laureana Novicio y Ancheta",
+                artist: "Juan Luna · 1897",
+                medium: "Oil on canvas",
+                img: "images/Artworks/A mi madre, or Laureana Novicio Ancheta.jpg",
+                badge: "National Art",
+                history: "This portrait was painted by Juan Luna as a dedication to his mother, Laureana Novicio y Ancheta. The inscription “To my mother” makes it one of Luna’s most personal works.",
+                analysis: "The painting shows Luna’s mastery of portraiture through realistic details and delicate brushwork. The calm expression and soft tones emphasize dignity and maternal warmth.",
+                subject: "A portrait of Luna’s mother.",
+                context: "Created near the end of Luna’s life during a period of emotional reflection.",
+                meaning: "Represents filial love, respect, and family devotion."
+            },
+
+            {
+                title: "Hulat Sweldo",
+                artist: "Nunelucio Alvarado · 1994",
+                medium: "Oil on canvas",
+                img: "images/Artworks/Hulat Sweldo Nunelucio Alvarado.jpg",
+                badge: "Contemporary",
+                history: "Created by Filipino social realist painter Nunelucio Alvarado, this artwork portrays the everyday struggles of workers waiting for their wages.",
+                analysis: "The painting uses bold colors and expressive figures typical of social realism. It highlights inequality and the harsh realities faced by laborers.",
+                subject: "Workers waiting for their salary.",
+                context: "Reflects labor struggles and economic conditions in the Philippines.",
+                meaning: "Represents social injustice and the dignity of working-class people."
+            },
+
+            {
+                title: "Jeepneys",
+                artist: "Vicente Manansala · 1960s",
+                medium: "Oil on canvas",
+                img: "images/Artworks/Jeepneys.jpg",
+                badge: "Contemporary",
+                history: "Painted by National Artist Vicente Manansala, this artwork portrays the everyday scene of Filipino commuters riding jeepneys, the most common form of public transportation in the Philippines. The painting reflects urban life and the culture of commuting in busy cities.",
+                analysis: "Manansala uses his signature transparent cubism style, combining geometric shapes and layered forms to depict crowded passengers and jeepneys. The overlapping figures and muted colors create a sense of movement and urban congestion.",
+                subject: "Passengers riding and gathering around jeepneys in the city.",
+                context: "Represents the rapid urbanization and daily transportation culture in the Philippines during the mid-20th century.",
+                meaning: "Symbolizes Filipino resilience, community life, and the shared experience of public transportation."
+            }
+        ];
+
+        const cards = document.querySelectorAll(".card");
+        const modal = document.getElementById("artModal");
+        const modalBadge = document.getElementById("modal-badge");
+
+        // TARGET ELEMENTS
+        const modalImg = document.getElementById("modal-img");
+        const modalTitle = document.getElementById("modal-title");
+        const modalArtist = document.getElementById("modal-artist");
+        const modalMedium = document.getElementById("modal-medium");
+        const modalHistory = document.getElementById("modal-history");
+        const modalAnalysis = document.getElementById("modal-analysis");
+        const modalSubject = document.getElementById("modal-subject");
+        const modalContext = document.getElementById("modal-context");
+        const modalMeaning = document.getElementById("modal-meaning");
+
+        // CLICK HANDLER
+        cards.forEach((card, index) => {
+            card.addEventListener("click", () => {
+                const data = artworks[index];
+
+                modalImg.src = data.img;
+                modalTitle.innerText = data.title;
+                modalArtist.innerText = data.artist;
+                modalMedium.innerText = data.medium;
+                modalBadge.innerText = data.badge;
+
+                modalHistory.innerText = data.history;
+                modalAnalysis.innerText = data.analysis;
+                modalSubject.innerText = data.subject;
+                modalContext.innerText = data.context;
+                modalMeaning.innerText = data.meaning;
+
+                modal.style.display = "block";
+            });
+        });
+
+        // CLOSE
+        document.querySelector(".close-btn").onclick = () => {
+            modal.style.display = "none";
+        };
+
+        window.onclick = (e) => {
+            if (e.target === modal) {
+                modal.style.display = "none";
+            }
+        };
+
+
+
+
+
+        const menuToggle = document.getElementById("menu-toggle");
+        const navCenter = document.querySelector(".nav-center");
+        const navLinks = document.querySelectorAll(".nav-center a");
+
+        menuToggle.addEventListener("click", () => {
+            navCenter.classList.toggle("active");
+        });
+
+        navLinks.forEach((link) => {
+            link.addEventListener("click", () => {
+                navCenter.classList.remove("active");
+            });
+        });
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>
