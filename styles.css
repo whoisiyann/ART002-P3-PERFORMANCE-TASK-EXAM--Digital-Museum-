@@ -15,7 +15,7 @@
   }
   
 
-  /* HAMBURGER (hidden by default) */
+  /* HAMBURGER*/
 .menu-toggle {
     display: none;
     font-size: 24px;
@@ -580,8 +580,18 @@
     position: relative;
     overflow: hidden;
   }
+
+  .curatorial-banner::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.28);
+    pointer-events: none;
+  }
   
   .curatorial-banner .overlay {
+    position: relative;
+    z-index: 1;
     padding: 30px;
     border-radius: 12px;
     color: white;
