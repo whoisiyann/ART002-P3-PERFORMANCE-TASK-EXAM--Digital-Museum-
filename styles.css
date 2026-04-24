@@ -572,7 +572,7 @@ button {
 
 /* BANNER */
 .curatorial-banner {
-  background: url("images/banner.png") center/cover no-repeat;
+  background: url("images/banner2.jpg") center/cover no-repeat;
   border-radius: 20px;
   padding: 60px;
   margin-bottom: 50px;
@@ -584,7 +584,7 @@ button {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.28);
+  background: rgba(0, 0, 0, 0.404);
   pointer-events: none;
 }
 
